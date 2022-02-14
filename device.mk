@@ -51,6 +51,10 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.device.rc
 
+# Pixel Launcher
+PRODUCT_PACKAGES += \
+    PixelLauncher
+
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
