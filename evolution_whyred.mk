@@ -32,3 +32,8 @@ PRODUCT_MODEL := Redmi Note 5
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 TARGET_VENDOR_PRODUCT_NAME := whyred
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="raven-user 12 SQ1D.220205.003 8069835 release-keys"
+
+BUILD_FINGERPRINT := google/raven/raven:12/SQ1D.220205.003/8069835:user/release-keys
